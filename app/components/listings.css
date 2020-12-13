@@ -1,0 +1,70 @@
+card: {
+    display: 'flex',
+    paddingBottom: 5
+  }
+  details: {
+    display: 'flex',
+    flexDirection: 'column',
+  }
+  cardContainer : {
+    flex: 0,
+    padding: 5
+  }
+  carousel: {
+    maxHeight: '20vh',
+    maxWidth: '20vh'
+  }
+  content: {
+    flex: '1 0 auto',
+  }
+  cover: {
+    display:'flex',
+    alignItems: 'center',
+    justifyContent: 'center',
+    paddingRight: 10
+  }
+  controls: {
+    display: 'flex',
+    alignItems: 'center',
+    paddingLeft: theme.spacing.unit,
+    paddingBottom: theme.spacing.unit,
+  }
+  divContainer: {
+    display: 'flex',
+    flexDirection: 'column'
+  }
+  hotelMap: {
+    paddingBottom: 5,
+    flex: 1,
+  }
+  hotelName: {
+    color: '#fd5c63',
+    fontWeight: 'bold'
+  }
+  largeContainer : {
+    display:'flex',
+  }
+  leftTopBar: {
+    display:'flex',
+    justifyContent:'space-evenly',
+    flex: 1
+  }
+  logo : {
+    height: 75,
+    width: 75
+  }
+  rightTopBar: {
+    display: 'flex',
+    justifyContent: 'flex-end',
+    flex: 1,
+  }
+  avatar: {
+    margin: 10,
+    color: '#fff',
+    backgroundColor: '#fd5c63',
+  }
+
+  media: {
+    height: 50,
+    width: 50
+  }
